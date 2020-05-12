@@ -1,0 +1,51 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add express cors bodyparser morgan mongoose
+
+PATH: 
+  /home/devlere/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/bin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/var/lib/snapd/snap/bin
+
+Yarn version: 
+  1.22.0
+
+Node version: 
+  13.10.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/bodyparser: Not found
+      at Request.params.callback [as _callback] (/usr/lib/node_modules/yarn/lib/cli.js:66975:18)
+      at Request.self.callback (/usr/lib/node_modules/yarn/lib/cli.js:140727:22)
+      at Request.emit (events.js:316:20)
+      at Request.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141699:10)
+      at Request.emit (events.js:316:20)
+      at IncomingMessage.<anonymous> (/usr/lib/node_modules/yarn/lib/cli.js:141621:12)
+      at Object.onceWrapper (events.js:422:28)
+      at IncomingMessage.emit (events.js:328:22)
+      at endReadableNT (_stream_readable.js:1201:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "auth-microservice",
+    "version": "1.0.0",
+    "description": "Microservice for authentication following a basic template",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+      "microservice",
+      "auth",
+      "authentication"
+    ],
+    "author": "Devlere",
+    "license": "ISC"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
